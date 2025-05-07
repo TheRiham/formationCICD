@@ -25,12 +25,12 @@ public class MathsTest {
 
 	@Test
 	public void testAdditionAvecMock() {
-		assertEquals(mathsMock.addition(2, 3), 5);
+		assertEquals(mathsMock.addition(2, 3), 7);
 	}
 
 	@Test
 	public void testAdditionCasGeneralNombresPositifs() {
-		assertEquals(maths.addition(2, 3), 7);
+		assertEquals(maths.addition(2, 3), 5);
 	}
 	
 	@Test
