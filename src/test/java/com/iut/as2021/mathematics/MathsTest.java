@@ -25,7 +25,7 @@ public class MathsTest {
 
 	@Test
 	public void testAdditionAvecMock() {
-		assertEquals(mathsMock.addition(2, 3), 7);
+		assertEquals(mathsMock.addition(2, 3), 5);
 	}
 
 	@Test
